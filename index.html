@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="error" style="display: none;">
+    <h1 class="error-msg"></h1>
+  </div>
+
+  <div class="success" style="display: none;">
+    <h1 class="success-msg"></h1>
+  </div>
+
+  <div class="wrapper">
+    <div id="main" class="dark">
+      <h2>Willy Wonka</h2>
+
+      <div class="form-container">
+
+        <div class="input-btn">
+          <input class="effect-1" type="text" placeholder="Enter your name" id="name">
+          <span class="focus-border"></span>
+        </div>
+
+        <div class="input-btn">
+          <input class="effect-1" type="number" placeholder="How old are you?" id="age" min="10" max="100" required>
+          <span class="focus-border"></span>
+        </div>
+
+        <div class="input-btn">
+          <input class="effect-1" type="text" placeholder="Guest Name" id="guest">
+          <span class="focus-border"></span>
+        </div>
+
+        <button id="btn">Submit</button>
+
+      </div>
+
+    </div>
+
+    <div id="console" class="glass">
+
+      <div class="scroll">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+  </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
